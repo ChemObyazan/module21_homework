@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container__label {
+  margin-right: 5px;
+}
+
+.input-container__input, .fetchButton {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.fetchButton {
+  background-color: #0000FF;
+  color: white;
+  cursor: pointer;
+}
+
+.fetchButton:hover {
+  background-color: #000080;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.imageContainer__image {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 10px;
+}

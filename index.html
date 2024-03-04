@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Fetcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="input-container">
+    <span class="input-container__label">Номер страницы:</span>
+    <input type="number" class="input-container__input input-pageNumber" min="1" max="10">
+  </div>
+  <div class="input-container">
+    <span class="input-container__label">Лимит:</span>
+    <input type="number" class="input-container__input input-limit" min="1" max="10">
+  </div>
+  <button class="fetchButton">Запрос</button>
+  <div class="imageContainer"></div>
+  <div class="errorMessage"></div>
+  <script src="script.js"></script>
+</body>
+</html>
